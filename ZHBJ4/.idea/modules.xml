@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ZHBJ4.iml" filepath="$PROJECT_DIR$/ZHBJ4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bottomtabdemo/bottomtabdemo.iml" filepath="$PROJECT_DIR$/bottomtabdemo/bottomtabdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eventdispatchdemo/eventdispatchdemo.iml" filepath="$PROJECT_DIR$/eventdispatchdemo/eventdispatchdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library-ViewPagerIndicator/library-ViewPagerIndicator.iml" filepath="$PROJECT_DIR$/library-ViewPagerIndicator/library-ViewPagerIndicator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library-slidingmenu/library-slidingmenu.iml" filepath="$PROJECT_DIR$/library-slidingmenu/library-slidingmenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-recyclerview/test-recyclerview.iml" filepath="$PROJECT_DIR$/test-recyclerview/test-recyclerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test_md_theme/test_md_theme.iml" filepath="$PROJECT_DIR$/test_md_theme/test_md_theme.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testbutterknift/testbutterknift.iml" filepath="$PROJECT_DIR$/testbutterknift/testbutterknift.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testokhttputils/testokhttputils.iml" filepath="$PROJECT_DIR$/testokhttputils/testokhttputils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testpicasso/testpicasso.iml" filepath="$PROJECT_DIR$/testpicasso/testpicasso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testviewpagerindiactor/testviewpagerindiactor.iml" filepath="$PROJECT_DIR$/testviewpagerindiactor/testviewpagerindiactor.iml" />
+    </modules>
+  </component>
+</project>

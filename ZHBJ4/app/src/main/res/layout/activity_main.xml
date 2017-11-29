@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--这个东西就是一个ViewPager-->
+    <com.itheima.shop.zhbj4.view.NoScrollViewPager
+        android:id="@+id/tab_vp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <RadioGroup
+        android:id="@+id/rg_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_tab_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <!--下面的style是抽取出的样式，右键-refactor-extract-style-->
+        <RadioButton
+            android:id="@+id/rb_home"
+            android:drawableTop="@drawable/tab_home_selector"
+            android:text="首页"
+            android:checked="true"
+            style="@style/main_tab_rg_style" />
+        <RadioButton
+            android:id="@+id/rb_newscener"
+            android:drawableTop="@drawable/tab_newscenter_selector"
+            android:text="新闻中心"
+            style="@style/main_tab_rg_style" />
+        <RadioButton
+            android:id="@+id/rb_smartservice"
+            android:drawableTop="@drawable/tab_smartservice_selector"
+            android:text="智慧服务"
+            style="@style/main_tab_rg_style" />
+        <RadioButton
+            android:id="@+id/rb_govaffairs"
+            android:drawableTop="@drawable/tab_govaffairs_selector"
+            android:text="政务"
+            style="@style/main_tab_rg_style" />
+        <RadioButton
+            android:id="@+id/rb_setting"
+            android:drawableTop="@drawable/tab_setting_selector"
+            android:text="设置"
+            style="@style/main_tab_rg_style" />
+    </RadioGroup>
+
+</LinearLayout>

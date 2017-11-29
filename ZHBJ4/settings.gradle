@@ -1,0 +1,1 @@
+include ':app', ':bottomtabdemo', ':library-slidingmenu', ':eventdispatchdemo', ':testbutterknift', ':testokhttputils', ':testpicasso', ':library-ViewPagerIndicator', ':testviewpagerindiactor', ':test-recyclerview', ':test_md_theme'

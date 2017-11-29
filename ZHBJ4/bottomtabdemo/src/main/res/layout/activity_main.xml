@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.itheima.bottomtabdemo.MainActivity">
+
+    <com.itheima.bottomtabdemo.com.itheima.shop.zhbj4.bean.view.NoScrollViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></com.itheima.bottomtabdemo.com.itheima.shop.zhbj4.bean.view.NoScrollViewPager>
+
+   <RadioGroup
+       android:id="@+id/rg_tab"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:background="@drawable/bottom_tab_bg">
+       <RadioButton
+           android:id="@+id/rb_home"
+           android:drawableTop="@drawable/home_tab_selector"
+           android:checked="true"
+           android:text="首页"
+           style="@style/tab_rb_style" />
+       <RadioButton
+           android:id="@+id/rb_newscenter"
+           android:drawableTop="@drawable/newscenter_tab_selector"
+           android:text="新闻中心"
+           style="@style/tab_rb_style" />
+       <RadioButton
+           android:id="@+id/rb_smartservice"
+           android:drawableTop="@drawable/smartservice_tab_selector"
+           android:text="智慧服务"
+           style="@style/tab_rb_style" />
+       <RadioButton
+           android:id="@+id/rb_govaffairs"
+           android:drawableTop="@drawable/govaffairs_tab_selector"
+           android:text="政务"
+           style="@style/tab_rb_style" />
+       <RadioButton
+           android:id="@+id/rb_setting"
+           android:drawableTop="@drawable/setting_tab_selector"
+           android:text="设置"
+           style="@style/tab_rb_style" />
+   </RadioGroup>
+</LinearLayout>

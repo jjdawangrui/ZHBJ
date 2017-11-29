@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+android:fromDegrees="0"     然后外面再包一个，让它旋转，从0-360旋转一周
+    android:toDegrees="360"
+    android:pivotX="50%"    自身的一半做圆心？
+    android:pivotY="50%"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        android:shape="ring"    形状是圆形
+        android:useLevel="false"    让环形显示
+        android:innerRadiusRatio="3"    内半径比值
+        android:thicknessRatio="20">    厚度比值
+    android:startColor="#fff"   渐变的开颜色
+    android:centerColor="#f19898"   中间颜色
+    android:endColor="#f00" 渐变的结束颜色
+    android:type="sweep"    切换的类型
+-->
+<rotate
+    android:fromDegrees="0"
+    android:toDegrees="360"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape
+        android:shape="ring"
+        android:useLevel="false"
+        android:innerRadiusRatio="3"
+        android:thicknessRatio="20">
+        <!--这个是渐变吧，可以可以-->
+        <gradient
+            android:startColor="#fff"
+            android:centerColor="#f19898"
+            android:endColor="#f00"
+            android:type="sweep" />
+    </shape>
+</rotate>

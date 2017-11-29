@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.itheima.eventdispatchdemo.com.itheima.shop.zhbj4.bean.view.MyViewGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.itheima.eventdispatchdemo.MainActivity">
+
+    <com.itheima.eventdispatchdemo.com.itheima.shop.zhbj4.bean.view.MyView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+</com.itheima.eventdispatchdemo.com.itheima.shop.zhbj4.bean.view.MyViewGroup>
